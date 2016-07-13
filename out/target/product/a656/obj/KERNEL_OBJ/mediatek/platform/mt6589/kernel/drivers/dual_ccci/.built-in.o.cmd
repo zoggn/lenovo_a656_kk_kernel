@@ -1,0 +1,1 @@
+cmd_mediatek/platform/mt6589/kernel/drivers/dual_ccci/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/platform/mt6589/kernel/drivers/dual_ccci/built-in.o mediatek/platform/mt6589/kernel/drivers/dual_ccci/ccci_plat.o 

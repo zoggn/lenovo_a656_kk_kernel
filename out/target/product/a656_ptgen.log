@@ -1,0 +1,90 @@
+Useless use of a variable in void context at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 23.
+Name "main::Partition_table" used only once: possible typo at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 23.
+Name "main::LCA_PRJ" used only once: possible typo at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 71.
+Name "main::PART_SIZE_LOCATION" used only once: possible typo at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 210.
+Name "main::platform" used only once: possible typo at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 68.
+Use of uninitialized value $LDVT_SUPPORT in string eq at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 146.
+Use of uninitialized value in concatenation (.) or string at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 157.
+Use of uninitialized value in concatenation (.) or string at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 157.
+Use of uninitialized value in concatenation (.) or string at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 157.
+Use of uninitialized value $MTK_CIP_SUPPORT in concatenation (.) or string at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 157.
+*******************Arguments*********************
+Version=4.1 ChangeHistory:4.1 YAML spec 1.1.1
+
+PLATFORM = MT6589;
+PROJECT = a656;
+LCA_PRJ = ;
+PAGE_SIZE = 2K;
+EMMC_SUPPORT= yes;
+LDVT_SUPPORT= ;
+TARGET_BUILD_VARIANT= user;
+MTK_EMMC_OTP_SUPPORT= ;
+MTK_SHARED_SDCARD=no;
+MTK_NAND_UBIFS_SUPPORT=no;
+MTK_YAML_SCATTER_FILE_SUPPORT=no;
+MTK_CIP_SUPPORT= ;
+
+SHEET_NAME=emmc user
+SCAT_NAME=out/target/product/a656/MT6589_Android_scatter_emmc.txt
+*******************Arguments*********************
+
+
+
+In H9DP32A4JJMCGR,2048,2048,2048,3778560
+In H9TP33A8LDMCMR,2048,2048,2048,3524608
+In H9TP32A4GDMCPR,2048,2048,2048,3778560
+In KMSJS000KM_B308,1024,1024,128,3817472
+In KMNJS000ZM_B205,1024,1024,128,3815296
+In KMJJS000WM_B409,1024,1024,128,3817472
+In KMKLL000UM_B406,512,512,128,3906432
+In KMKJS000VM_B309,1024,1024,128,3815296
+In MT29KZZZ4D4TGFAK_5W,2048,2048,2048,3900000
+In SD7DP28C_4,2048,2048,2048,3866624
+In SD7DP28C_4_MMD2,2048,2048,2048,3866624
+In H9TP32A8JDACPR_KGM,2048,2048,2048,3784704
+Chose region layout: KMKJS000VM_B309, 1024 + 1024 + 128=2176 $REGION_TABLE{$part_num}{USER}=3815296
+Chose region layout: SD7DP28C_4, 2048 + 2048 + 2048=6144 $REGION_TABLE{$part_num}{USER}=3866624
+Chose region layout: H9TP32A8JDACPR_KGM, 2048 + 2048 + 2048=6144 $REGION_TABLE{$part_num}{USER}=3784704
+The MAX BOOT1+BOOT2+RPMB=6144  $Min_user_region=3784704 in mediatek/custom/a656/preloader/inc/custom_MemoryDevice.h
+Use of uninitialized value in string ne at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 654.
+Use of uninitialized value $PART_SIZE_LOCATION in concatenation (.) or string at mediatek/build/tools/ptgen/MT6589/ptgen.pl line 210.
+[Ptgen in module] MBR_Start_Address_KB = 6144
+Get MBR_Start_Address_KB from mediatek/custom/a656/preloader/inc/custom_MemoryDevice.h = 6144
+ebr 1 2
+There are 22 Partition totally!.
+BR COUNT is 9 2
+out/target/product/a656/EBR1 1 400
+out/target/product/a656/EBR2 2 1b800
+mbr_0 p_2 0 index_1
+mbr_0 p_3 0 index_2
+mbr_0 p_4 0 index_3
+mbr_1 p_5 1 index_0
+mbr_1 p_6 1 index_1
+mbr_1 p_7 1 index_2
+mbr_2 p_8 2 index_0
+p2 start_block 6800 size_block 5000
+p3 start_block b800 size_block 5000
+p4 start_block 16c00 size_block 3000
+p5 start_block 20c00 size_block 145000
+p6 start_block 165c00 size_block 3f000
+p7 start_block 1a4c00 size_block 200000
+p8 start_block 3a4c00 size_block 0
+
+out/target/product/a656/MBR 5 400 ffffffff 83 6800 5000 83 b800 5000 83 16c00 3000 
+out/target/product/a656/EBR1 83 20800 145000 83 165800 3f000 83 1a4800 200000 5 1b400 ffffffff 
+out/target/product/a656/EBR2 83 389400 ffc5b7ff 0 0 0 0 0 0 0 0 0 
+Generate out/target/product/a656/MBR bin file
+Generate out/target/product/a656/EBR1 bin file
+Generate out/target/product/a656/EBR2 bin file
+**********Ptgen Done********** ^_^
+
+
+Ptgen modified or Generated files list:
+out/target/product/a656/MT6589_Android_scatter_emmc.txt
+out/target/product/a656/obj/PTGEN/common/partition_define.h
+
+/out/MBR EBR1 EBR2 
+
+
+
+

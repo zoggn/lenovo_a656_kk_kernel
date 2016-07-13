@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/kernel/hibcore/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/kernel/hibcore/built-in.o mediatek/kernel/kernel/hibcore/mtk_hibernate_dpm.o mediatek/kernel/kernel/hibcore/mtk_hibernate_core.o 

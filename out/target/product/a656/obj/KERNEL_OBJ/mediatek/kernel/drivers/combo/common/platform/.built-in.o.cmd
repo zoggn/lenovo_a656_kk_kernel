@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/combo/common/platform/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/combo/common/platform/built-in.o mediatek/kernel/drivers/combo/common/platform/alps/built-in.o 

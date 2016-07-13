@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/selinux_warning/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/selinux_warning/built-in.o mediatek/kernel/drivers/selinux_warning/selinux_warning.o 

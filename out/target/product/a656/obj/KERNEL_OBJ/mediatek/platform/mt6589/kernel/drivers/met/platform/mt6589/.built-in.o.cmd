@@ -1,0 +1,1 @@
+cmd_mediatek/platform/mt6589/kernel/drivers/met/platform/mt6589/built-in.o :=  rm -f mediatek/platform/mt6589/kernel/drivers/met/platform/mt6589/built-in.o; arm-linux-androideabi-ar rcsD mediatek/platform/mt6589/kernel/drivers/met/platform/mt6589/built-in.o

@@ -1,0 +1,25 @@
+$PLATFORM=MT6589,$PROJECT=a656,$FULL_PROJECT=a656,$PAGE_SIZE=2K
+Spreadsheet::ParseExcel::Worksheet=HASH(0xf7f8f0): row=0, col=12 undefined
+AddrCycle BlockSize_KB CacheRead IOWidth Nand_ID PageSize_B Part_Number RandomRead SpareSize_B Timing TotalSize_MB Vendor
+Spreadsheet::ParseExcel::Worksheet=HASH(0xf7f8f0): row=6, col=1 undefined
+~~~~~~~~~EXCEL INFO~~~~~~~~~~~
+index:0
+AddrCycle      :5                    BlockSize_KB   :128                  CacheRead      :NO                   IOWidth        :16                   Nand_ID        :0x20BC105554         PageSize_B     :2048                 Part_Number    :EHD013151MA_50       RandomRead     :NO                   SpareSize_B    :64                   Timing         :0x1123               TotalSize_MB   :512                  Vendor         :ELPIDA               
+index:1
+AddrCycle      :5                    BlockSize_KB   :128                  CacheRead      :NO                   IOWidth        :16                   Nand_ID        :0xECBC005554         PageSize_B     :2048                 Part_Number    :K524G2GACB_A050      RandomRead     :NO                   SpareSize_B    :64                   Timing         :0x1123               TotalSize_MB   :512                  Vendor         :Samsung              
+index:2
+AddrCycle      :5                    BlockSize_KB   :128                  CacheRead      :NO                   IOWidth        :16                   Nand_ID        :0x2CBC905556         PageSize_B     :2048                 Part_Number    :MT29C4G96MAZAPCJA_5IT RandomRead     :NO                   SpareSize_B    :64                   Timing         :0x21044333           TotalSize_MB   :512                  Vendor         :Micron               
+index:3
+AddrCycle      :5                    BlockSize_KB   :256                  CacheRead      :NO                   IOWidth        :16                   Nand_ID        :0xECBC006656         PageSize_B     :4096                 Part_Number    :KA100O015E_BJTT      RandomRead     :YES                  SpareSize_B    :128                  Timing         :0x21044333           TotalSize_MB   :512                  Vendor         :Samsung              
+index:4
+AddrCycle      :5                    BlockSize_KB   :128                  CacheRead      :NO                   IOWidth        :16                   Nand_ID        :0xADBC905554         PageSize_B     :2048                 Part_Number    :H9DA4GH4JJAMCR_4EM   RandomRead     :NO                   SpareSize_B    :64                   Timing         :0x10801011           TotalSize_MB   :512                  Vendor         :Hynix                
+~~~~~~~~~There are 5 Nand Chips~~~~~~~~~~~
+Argument "0x20BC105554" isn't numeric in numeric comparison (<=>) at mediatek/build/tools/emigen/MT6589/nandgen.pl line 206.
+Argument "0x2CBC905556" isn't numeric in numeric comparison (<=>) at mediatek/build/tools/emigen/MT6589/nandgen.pl line 206.
+Argument "0xADBC905554" isn't numeric in numeric comparison (<=>) at mediatek/build/tools/emigen/MT6589/nandgen.pl line 206.
+Argument "0xECBC005554" isn't numeric in numeric comparison (<=>) at mediatek/build/tools/emigen/MT6589/nandgen.pl line 206.
+ID={0x2C,0xBC,0x90,0x55,0x56}
+ID={0x20,0xBC,0x10,0x55,0x54}
+ID={0xEC,0xBC,0x00,0x55,0x54}
+ID={0xAD,0xBC,0x90,0x55,0x54}
+nandgen done

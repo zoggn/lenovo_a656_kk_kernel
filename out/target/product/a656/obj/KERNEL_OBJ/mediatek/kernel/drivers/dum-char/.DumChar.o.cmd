@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/dum-char/DumChar.o := arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/dum-char/DumChar.o mediatek/kernel/drivers/dum-char/dumchar.o mediatek/kernel/drivers/dum-char/env.o 

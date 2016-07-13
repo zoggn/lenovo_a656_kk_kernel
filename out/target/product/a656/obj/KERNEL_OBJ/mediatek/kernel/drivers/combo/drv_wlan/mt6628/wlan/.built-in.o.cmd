@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/combo/drv_wlan/mt6628/wlan/built-in.o :=  arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/combo/drv_wlan/mt6628/wlan/built-in.o mediatek/kernel/drivers/combo/drv_wlan/mt6628/wlan/wlan_mt6628.o 

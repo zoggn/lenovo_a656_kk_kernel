@@ -1,0 +1,7 @@
+kernel/drivers/usb/usb-common.ko
+kernel/drivers/usb/class/cdc-acm.ko
+kernel/drivers/usb/core/usbcore.ko
+kernel/drivers/usb/gadget/udc-core.ko
+kernel/drivers/usb/misc/trancevibrator.ko
+kernel/drivers/usb/otg/nop-usb-xceiv.ko
+kernel/drivers/usb/storage/usb-libusual.ko
