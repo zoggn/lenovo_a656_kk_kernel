@@ -126,7 +126,7 @@ CUSTOM_KERNEL_IMGSENSOR =ov5648_mipi_raw
 CUSTOM_KERNEL_KPD = kpd
 
 # To choose kernel LCM driver name
-CUSTOM_KERNEL_LCM = otm8018b_dsi_vdo_tianma
+CUSTOM_KERNEL_LCM = otm8018b_dsi_vdo_tianma otm8009_dsi_6589
 # leds driver including green/red/blue
 CUSTOM_KERNEL_LEDS = mt65xx
 
@@ -1293,7 +1293,7 @@ MTK_TELEPHONY_BOOTUP_MODE_SLOT1 = 0
 MTK_TELEPHONY_BOOTUP_MODE_SLOT2 = 1
 
 # MTK_FLIGHT_MODE_POWER_OFF_MD is used to control if modem is powered off when entering flight mode MTK_TELEPHONY_MODE is used for specify current telephony mode MTK_FIRST_MD is used to specify the high priority modem
-MTK_TELEPHONY_MODE = 1
+MTK_TELEPHONY_MODE = 2
 
 # "yes" means enable Tencent mobile manager(normal version) feature and "no" disable.
 MTK_TENCENT_MOBILE_MANAGER_NORMAL_SUPPORT = no
@@ -1454,7 +1454,7 @@ NXP_SMARTPA_SUPPORT = no
 OP01_CTS_COMPATIBLE = no
 
 # It's used to define which operator you will support. If it's not operator load, the value is NONE(default value). The values may be: OP01_SPEC0200_SEGC(for CMCC), OPO2_SPEC0200_SEGA(for CU)
-OPTR_SPEC_SEG_DEF = NONE
+OPTR_SPEC_SEG_DEF = OP01_SPEC0200_SEGC
 PLATFORM_MTK_SDK_VERSION = 2
 
 # AP only chip use external modem, ex: mt8135.
